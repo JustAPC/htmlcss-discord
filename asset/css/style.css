@@ -140,3 +140,14 @@ section {
 .onda2 {
     margin-top: -70px;
 }
+.full{
+    height: 100vh;
+}
+.central-text {
+    text-align: center;
+}
+.description2{
+    font-size: 1.2rem;
+    margin: auto;
+    width: 50%;
+}
