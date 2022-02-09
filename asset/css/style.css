@@ -55,7 +55,6 @@ ul li a:hover{
     text-decoration: underline;
 }
 
-
 .access-button{
     display: inline-block;
     position: absolute;
@@ -82,5 +81,42 @@ main p {
     margin: 50px auto;
     font-size: 1.5rem;
     line-height: 35px;
+}
+
+.download::before{
+    content: "\2913";
+    font-weight: bold;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.download {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    float: left;
+    left: 35%;
+    bottom: 45%;
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+}
+
+.web-version {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    float: left;
+    left: 49%;
+    bottom: 45%;
+    background-color: #23272A;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 1.2rem;
 }
 
