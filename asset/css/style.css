@@ -3,30 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
-
 body {
     font-family: Arial, sans-serif;
 }
-
 .banner{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 60vh;
 }
-
 .menu{
     height: 8%;
     line-height: 8%;
     vertical-align: middle;
     background-color: #255EE9;
 }
-
 .logo{
     margin: auto;
     float: left;
@@ -34,27 +29,22 @@ body {
     left: 15%;
     top: 3%;
 }
-
 .sezione-centrale{
     text-align: center;
     padding: 40px;
 }
-
 ul li {
     display: inline-block;
     list-style-type: none;
 }
-
 ul li a{
     text-decoration: none;
     color: white;
     padding: 10px 25px;
 }
-
 ul li a:hover{
     text-decoration: underline;
 }
-
 .access-button{
     display: inline-block;
     position: absolute;
@@ -67,14 +57,12 @@ ul li a:hover{
     text-decoration: none;
     font-weight: bold;
 }
-
 main{
     text-align: center;
     color: white;
     padding-top: 6%;
     font-size: 2rem;
 }
-
 main p {
     width: 48%;
     text-align: center;
@@ -82,16 +70,13 @@ main p {
     font-size: 1.5rem;
     line-height: 35px;
 }
-
 .download::before{
     content: "\2913";
     font-weight: bold;
 }
-
 .underline:hover {
     text-decoration: underline;
 }
-
 .download {
     display: inline-block;
     position: absolute;
@@ -105,7 +90,6 @@ main p {
     border-radius: 50px;
     font-size: 1.2rem;
 }
-
 .web-version {
     display: inline-block;
     position: absolute;
@@ -119,29 +103,40 @@ main p {
     border-radius: 50px;
     font-size: 1.2rem;
 }
-
 .left {
     position: absolute;
     float: left;
     left: 20%;
-    margin-top: 100px;
 }
-
 .right {
     position: absolute;
     float: left;
-    right: 15%;
-    margin-top: 130px;
-    width: 20%;
-    color: #3F4345;
+    right: 20%;
 }
-
+.text{
+    width: 20%;
+    margin-top: 30px;
+}
 .title {
     font-size: 3rem;
     padding-bottom: 30px;
+    color: #3F4345;
 }
-
 .description {
     font-size: 1.4rem;
     line-height: 35px;
+    color: #3F4345;
+} 
+section {
+    height: calc(100vh - 200px);
+    padding-top: 6%;
+}
+.bg-grey {
+    background-color: #F6F6F6;
+}
+.onda{
+    margin: -5px auto;
+}
+.onda2 {
+    margin-top: -70px;
 }
