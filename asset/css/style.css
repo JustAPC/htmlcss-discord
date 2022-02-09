@@ -120,3 +120,28 @@ main p {
     font-size: 1.2rem;
 }
 
+.left {
+    position: absolute;
+    float: left;
+    left: 20%;
+    margin-top: 100px;
+}
+
+.right {
+    position: absolute;
+    float: left;
+    right: 15%;
+    margin-top: 130px;
+    width: 20%;
+    color: #3F4345;
+}
+
+.title {
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.description {
+    font-size: 1.4rem;
+    line-height: 35px;
+}
