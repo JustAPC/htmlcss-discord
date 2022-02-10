@@ -70,7 +70,7 @@ main p {
     font-size: 1.5rem;
     line-height: 35px;
 }
-.download::before{
+.download, .download-button::before{
     content: "\2913";
     font-weight: bold;
 }
@@ -135,7 +135,7 @@ section {
     background-color: #F6F6F6;
 }
 .onda{
-    margin: -5px auto;
+    display: block;
 }
 .onda2 {
     margin-top: -70px;
@@ -150,4 +150,58 @@ section {
     font-size: 1.2rem;
     margin: auto;
     width: 50%;
+}
+.stars {
+    background-image: url(../img/stars.svg);
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.download-button {
+    display: inline-block;
+    background-color: #93A5E2;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #23272A;
+    width: 100%;
+}
+.footer-container {
+    color: white;
+    width: 70%;
+    height: 65vh;
+    margin: 0 auto;
+    border: 1px solid yellow;
+}
+.coloumn1{
+    width: 33%;
+    padding-top: 70px;
+    height: 100%;
+    display: inline-block;
+    border: 1px solid red;
+    line-height: 50px;
+}
+.coloumn1 h3{
+    color: #687DC6;
+    font-size: 2rem;
+}
+.coloumn2{
+    width: 15%;
+    height: 200px;
+    border: 1px solid red;
+    display: inline-block;
+    text-align: start;
+}
+.social-logos {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+.italian-flag {
+    width: 18px;
 }
