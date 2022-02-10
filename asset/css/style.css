@@ -195,7 +195,6 @@ footer {
     height: 200px;
     border: 1px solid red;
     display: inline-block;
-    text-align: start;
 }
 .social-logos {
     display: inline-block;
